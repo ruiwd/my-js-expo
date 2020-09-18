@@ -1,23 +1,33 @@
 {
   "files": {
-    "main.css": "/my-js-thirty/static/css/main.b6f07b90.chunk.css",
-    "main.js": "/my-js-thirty/static/js/main.c037cd5e.chunk.js",
-    "main.js.map": "/my-js-thirty/static/js/main.c037cd5e.chunk.js.map",
+    "main.css": "/my-js-thirty/static/css/main.19b6b26f.chunk.css",
+    "main.js": "/my-js-thirty/static/js/main.15a7f333.chunk.js",
+    "main.js.map": "/my-js-thirty/static/js/main.15a7f333.chunk.js.map",
     "runtime-main.js": "/my-js-thirty/static/js/runtime-main.30cde79e.js",
     "runtime-main.js.map": "/my-js-thirty/static/js/runtime-main.30cde79e.js.map",
-    "static/js/2.b76d223f.chunk.js": "/my-js-thirty/static/js/2.b76d223f.chunk.js",
-    "static/js/2.b76d223f.chunk.js.map": "/my-js-thirty/static/js/2.b76d223f.chunk.js.map",
+    "static/js/2.86ca7456.chunk.js": "/my-js-thirty/static/js/2.86ca7456.chunk.js",
+    "static/js/2.86ca7456.chunk.js.map": "/my-js-thirty/static/js/2.86ca7456.chunk.js.map",
     "index.html": "/my-js-thirty/index.html",
-    "precache-manifest.0569a6213b761f486590b073e69d3cc1.js": "/my-js-thirty/precache-manifest.0569a6213b761f486590b073e69d3cc1.js",
+    "precache-manifest.c42cde36576a738e70411dbac9d96ec1.js": "/my-js-thirty/precache-manifest.c42cde36576a738e70411dbac9d96ec1.js",
     "service-worker.js": "/my-js-thirty/service-worker.js",
-    "static/css/main.b6f07b90.chunk.css.map": "/my-js-thirty/static/css/main.b6f07b90.chunk.css.map",
-    "static/js/2.b76d223f.chunk.js.LICENSE.txt": "/my-js-thirty/static/js/2.b76d223f.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/my-js-thirty/static/media/logo.5d5d9eef.svg"
+    "static/css/main.19b6b26f.chunk.css.map": "/my-js-thirty/static/css/main.19b6b26f.chunk.css.map",
+    "static/js/2.86ca7456.chunk.js.LICENSE.txt": "/my-js-thirty/static/js/2.86ca7456.chunk.js.LICENSE.txt",
+    "static/media/boom.wav": "/my-js-thirty/static/media/boom.550be808.wav",
+    "static/media/App.css": "/my-js-thirty/static/media/tape.35f0ce1f.png",
+    "static/media/clap.wav": "/my-js-thirty/static/media/clap.a6e86dd7.wav",
+    "static/media/hihat.wav": "/my-js-thirty/static/media/hihat.4ba39e07.wav",
+    "static/media/kick.wav": "/my-js-thirty/static/media/kick.4dd58595.wav",
+    "static/media/openhat.wav": "/my-js-thirty/static/media/openhat.a62db465.wav",
+    "static/media/polaroidDrumKit.png": "/my-js-thirty/static/media/polaroidDrumKit.3ffa3dca.png",
+    "static/media/ride.wav": "/my-js-thirty/static/media/ride.b0d70ec5.wav",
+    "static/media/snare.wav": "/my-js-thirty/static/media/snare.80c4129b.wav",
+    "static/media/tink.wav": "/my-js-thirty/static/media/tink.75f727ec.wav",
+    "static/media/tom.wav": "/my-js-thirty/static/media/tom.572ed39d.wav"
   },
   "entrypoints": [
     "static/js/runtime-main.30cde79e.js",
-    "static/js/2.b76d223f.chunk.js",
-    "static/css/main.b6f07b90.chunk.css",
-    "static/js/main.c037cd5e.chunk.js"
+    "static/js/2.86ca7456.chunk.js",
+    "static/css/main.19b6b26f.chunk.css",
+    "static/js/main.15a7f333.chunk.js"
   ]
 }
