@@ -14,7 +14,7 @@ class App extends Component {
       <Router>
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/drumKit" exact component={DrumKit} />
+          <Route path="/DrumKit" exact component={DrumKit} />
         </Switch>
       </Router>
     );

@@ -1,0 +1,52 @@
+.home {
+  width: 100vh;
+  height: 100vw;
+  transform-origin: top left;
+  transform: rotateZ(-90deg) translateX(-100vh);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  z-index: -10;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+
+  .scrollDiv {
+    background-image: url(./projectAssets/home/bulletin.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotateZ(90deg) translateY(-100vh);
+    transform-origin: top left;
+    width: 500vw;
+    height: 100vh;
+
+    .polaroidSet {
+      padding: 5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 45rem;
+
+      .polaroid {
+        width: 100%;
+      }
+
+      .postIt {
+        background-image: url(./projectAssets/home/postIt.png);
+        padding: 10rem 3rem 0rem 4rem;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 70%;
+        height: 50rem;
+
+        p {
+          font-family: cursive;
+        }
+      }
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

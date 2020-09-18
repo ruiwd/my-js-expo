@@ -297,6 +297,72 @@ a {
   }
 }
 
+.home {
+  width: 100vh;
+  height: 100vw;
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  -webkit-transform: rotateZ(-90deg) translateX(-100vh);
+          transform: rotateZ(-90deg) translateX(-100vh);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  z-index: -10;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.home .scrollDiv {
+  background-image: url(./projectAssets/home/bulletin.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-transform: rotateZ(90deg) translateY(-100vh);
+          transform: rotateZ(90deg) translateY(-100vh);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  width: 500vw;
+  height: 100vh;
+}
+
+.home .scrollDiv .polaroidSet {
+  padding: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 45rem;
+}
+
+.home .scrollDiv .polaroidSet .polaroid {
+  width: 100%;
+}
+
+.home .scrollDiv .polaroidSet .postIt {
+  background-image: url(./projectAssets/home/postIt.png);
+  padding: 10rem 3rem 0rem 4rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 70%;
+  height: 50rem;
+}
+
+.home .scrollDiv .polaroidSet .postIt p {
+  font-family: cursive;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 .drumKit {
   width: 100vw;
   min-height: 100vh;

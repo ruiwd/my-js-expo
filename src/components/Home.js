@@ -4,7 +4,12 @@ import Polaroid from "./homeComponents/Polaroid.js";
 function Home() {
   return (
     <div className="home">
-      <Polaroid project="drumKit" />
+      <div className="scrollDiv">
+        <Polaroid
+          project="DrumKit"
+          description="Drums too hard to learn? Here's a shortcut!"
+        />
+      </div>
     </div>
   );
 }
