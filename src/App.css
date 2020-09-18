@@ -34,7 +34,7 @@ figure {
 
 hr {
   -webkit-box-sizing: content-box;
-  box-sizing: content-box;
+          box-sizing: content-box;
   height: 0;
   overflow: visible;
 }
@@ -53,7 +53,7 @@ abbr[title] {
   border-bottom: none;
   text-decoration: underline;
   -webkit-text-decoration: underline dotted;
-  text-decoration: underline dotted;
+          text-decoration: underline dotted;
 }
 
 b,
@@ -169,7 +169,7 @@ fieldset {
 
 legend {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   color: inherit;
   display: table;
   max-width: 100%;
@@ -189,7 +189,7 @@ textarea {
 [type="checkbox"],
 [type="radio"] {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   padding: 0;
 }
 
@@ -243,7 +243,7 @@ html {
 *:before,
 *:after {
   -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+          box-sizing: inherit;
 }
 
 .sr-only {
@@ -255,13 +255,13 @@ html {
   padding: 0;
   white-space: nowrap;
   -webkit-clip-path: inset(100%);
-  clip-path: inset(100%);
+          clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
 
 html {
-  font-size: 62.5%;
+  font-size: calc(5px + (10 - 5) * (100vw - 320px) / (1600 - 320));
 }
 
 body {
@@ -289,5 +289,122 @@ a {
   text-decoration: none;
   color: #000;
   display: inline-block;
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 40%;
+  }
+}
+
+.drumKit {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #ececec;
+  color: dimgray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.drumKit p {
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.drumKit h2 {
+  width: 85vw;
+  font-family: cursive;
+  font-size: 7rem;
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+.drumKit .keys {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 85vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+.drumKit .keys .keyContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.drumKit .keys .keyContainer .label {
+  margin: 2rem auto;
+  font-size: 2.5rem;
+  font-family: cursive;
+  color: rgba(0, 0, 0, 0.5);
+  padding-top: 1rem;
+  width: 14rem;
+  height: 5rem;
+  text-align: center;
+  background-image: url(./projectAssets/drumKit/tape.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.drumKit .keys .keyContainer .key {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 10%;
+  border: #ececec 0.7rem solid;
+  -webkit-box-shadow: -1rem -1rem 1.5rem rgba(255, 255, 255, 0.5), 1rem 1rem 1.5rem rgba(105, 105, 105, 0.2);
+          box-shadow: -1rem -1rem 1.5rem rgba(255, 255, 255, 0.5), 1rem 1rem 1.5rem rgba(105, 105, 105, 0.2);
+  -webkit-transition: all ease 0.07s;
+  transition: all ease 0.07s;
+  position: relative;
+  margin: 1rem;
+}
+
+.drumKit .keys .keyContainer .key p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+  -webkit-filter: drop-shadow(-0.1rem -0.1rem 0.1rem rgba(255, 255, 255, 0.5)) drop-shadow(0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(-0.1rem -0.1rem 0.1rem rgba(255, 255, 255, 0.5)) drop-shadow(0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.2));
+}
+
+.drumKit .keys .keyContainer .key.pressed {
+  -webkit-box-shadow: -1rem -1rem 1.5rem rgba(255, 255, 255, 0.5), 1rem 1rem 1.5rem rgba(105, 105, 105, 0.2), inset -1rem -1rem 1.5rem rgba(255, 255, 255, 0.5), inset 1rem 1rem 1.5rem rgba(105, 105, 105, 0.2);
+          box-shadow: -1rem -1rem 1.5rem rgba(255, 255, 255, 0.5), 1rem 1rem 1.5rem rgba(105, 105, 105, 0.2), inset -1rem -1rem 1.5rem rgba(255, 255, 255, 0.5), inset 1rem 1rem 1.5rem rgba(105, 105, 105, 0.2);
+}
+
+.drumKit .keys .keyContainer .key.pressed p {
+  -webkit-transform: translate(-50%, -50%) scale(0.9);
+          transform: translate(-50%, -50%) scale(0.9);
 }
 /*# sourceMappingURL=App.css.map */
