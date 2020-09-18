@@ -359,7 +359,7 @@ a {
 }
 
 .drumKit .keys .keyContainer .label {
-  margin: 2rem auto;
+  margin: 1rem auto 2rem auto;
   font-size: 2.5rem;
   font-family: cursive;
   color: rgba(0, 0, 0, 0.5);
