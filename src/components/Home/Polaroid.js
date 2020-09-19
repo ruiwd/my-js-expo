@@ -1,14 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import DrumKit from "../../projectAssets/home/polaroidDrumKit.png";
 
 function Polaroid(props) {
   return (
     <div className="polaroidSet">
-      <Link to="/DrumKit">
+      <Link to={`/${props.project}`}>
         <img
           className={`polaroid`}
-          src={DrumKit}
+          src={props.imageSrc}
           alt={`Polaroid: Snapshot of ${props.project} project`}
         />
       </Link>

@@ -11,7 +11,7 @@ import Tom from "../projectAssets/drumKit/tom.wav";
 
 function DrumKit() {
   useEffect(() => {
-    const randomize = () => {
+    const randomizeLabel = () => {
       document.querySelectorAll(".label").forEach((e) => {
         let randomNumber = Math.floor(Math.random() * 10);
         e.style.transform = `rotateZ(${randomNumber * 2 - 7}deg) 
@@ -19,7 +19,7 @@ function DrumKit() {
       });
     };
 
-    randomize();
+    randomizeLabel();
 
     const playAudio = (data) => {
       let audio = document.querySelector(`audio[data-key='${data}']`);

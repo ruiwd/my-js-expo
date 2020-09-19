@@ -322,10 +322,13 @@ a {
           transform-origin: top left;
   width: 500vw;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .home .scrollDiv .polaroidSet {
-  padding: 5rem;
+  padding: 5rem 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -356,7 +359,7 @@ a {
 }
 
 .home .scrollDiv .polaroidSet .postIt p {
-  font-family: cursive;
+  font-family: "Rock Salt", cursive;
 }
 
 ::-webkit-scrollbar {
@@ -393,7 +396,7 @@ a {
 
 .drumKit h2 {
   width: 85vw;
-  font-family: cursive;
+  font-family: "Rock Salt", cursive;
   font-size: 7rem;
   text-align: center;
   margin-bottom: 10rem;
@@ -427,7 +430,7 @@ a {
 .drumKit .keys .keyContainer .label {
   margin: 1rem auto 2rem auto;
   font-size: 2.5rem;
-  font-family: cursive;
+  font-family: "Rock Salt", cursive;
   color: rgba(0, 0, 0, 0.5);
   padding-top: 1rem;
   width: 14rem;
@@ -472,5 +475,74 @@ a {
 .drumKit .keys .keyContainer .key.pressed p {
   -webkit-transform: translate(-50%, -50%) scale(0.9);
           transform: translate(-50%, -50%) scale(0.9);
+}
+
+.clock {
+  background-color: dimgray;
+  min-height: 100vh;
+}
+
+.clock .clockFace {
+  margin: 0 auto;
+  background-color: dimgray;
+  width: 50rem;
+  height: 50rem;
+  position: relative;
+}
+
+.clock .clockFace .numbers .number {
+  position: absolute;
+}
+
+.clock .clockFace .numbers .number.twelve {
+  top: 0;
+  left: 50%;
+}
+
+.clock .clockFace .numbers .number.three {
+  top: 50%;
+  right: 0%;
+}
+
+.clock .clockFace .numbers .number.six {
+  bottom: 0%;
+  right: 50%;
+}
+
+.clock .clockFace .numbers .number.nine {
+  bottom: 50%;
+  left: 0%;
+}
+
+.clock .clockFace .hands {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.clock .clockFace .hands .hand {
+  -webkit-transform-origin: bottom;
+          transform-origin: bottom;
+  position: absolute;
+  bottom: 50%;
+  border-radius: 100% 100% 0% 0%;
+}
+
+.clock .clockFace .hands .hand.second {
+  width: 0.1rem;
+  height: 20rem;
+  background-color: red;
+}
+
+.clock .clockFace .hands .hand.minute {
+  width: 0.2rem;
+  height: 20rem;
+  background-color: white;
+}
+
+.clock .clockFace .hands .hand.hour {
+  width: 0.5rem;
+  height: 15rem;
+  background-color: white;
 }
 /*# sourceMappingURL=App.css.map */
