@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <Router>
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route path="/my-js-thirty" exact component={Home} />
           <Route path="/DrumKit" exact component={DrumKit} />
         </Switch>
       </Router>
