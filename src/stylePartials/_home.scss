@@ -23,12 +23,12 @@
     display: flex;
 
     .polaroidSet {
-      padding: 5rem 3rem;
+      padding: 7rem 3rem;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      width: 45rem;
+      width: 40rem;
 
       .polaroid {
         width: 100%;
@@ -41,6 +41,7 @@
         background-repeat: no-repeat;
         width: 70%;
         height: 50rem;
+        filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(black, 0.5));
 
         p {
           font-family: $cursive;

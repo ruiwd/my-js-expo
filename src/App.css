@@ -328,7 +328,7 @@ a {
 }
 
 .home .scrollDiv .polaroidSet {
-  padding: 5rem 3rem;
+  padding: 7rem 3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -342,7 +342,7 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 45rem;
+  width: 40rem;
 }
 
 .home .scrollDiv .polaroidSet .polaroid {
@@ -356,6 +356,8 @@ a {
   background-repeat: no-repeat;
   width: 70%;
   height: 50rem;
+  -webkit-filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.5));
 }
 
 .home .scrollDiv .polaroidSet .postIt p {
@@ -478,40 +480,107 @@ a {
 }
 
 .clock {
-  background-color: dimgray;
+  background-color: darkslategray;
   min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .clock .clockFace {
-  margin: 0 auto;
-  background-color: dimgray;
+  background-color: darkslategray;
   width: 50rem;
   height: 50rem;
   position: relative;
+  border-radius: 50%;
+  border: darkslategray 1rem solid;
+  -webkit-box-shadow: 0rem 1.5rem 1.5rem rgba(0, 0, 0, 0.15), 0rem -1.5rem 1.5rem rgba(255, 255, 255, 0.07), inset 0rem 1.5rem 1.5rem rgba(0, 0, 0, 0.15), inset 0rem -1.5rem 1.5rem rgba(255, 255, 255, 0.07);
+          box-shadow: 0rem 1.5rem 1.5rem rgba(0, 0, 0, 0.15), 0rem -1.5rem 1.5rem rgba(255, 255, 255, 0.07), inset 0rem 1.5rem 1.5rem rgba(0, 0, 0, 0.15), inset 0rem -1.5rem 1.5rem rgba(255, 255, 255, 0.07);
+}
+
+.clock .clockFace .screen {
+  color: #edae98;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 200;
+  -webkit-box-shadow: inset rgba(255, 255, 255, 0.1) -0.1rem -0.1rem 0.3rem, inset rgba(0, 0, 0, 0.3) 0.1rem 0.1rem 0.3rem;
+          box-shadow: inset rgba(255, 255, 255, 0.1) -0.1rem -0.1rem 0.3rem, inset rgba(0, 0, 0, 0.3) 0.1rem 0.1rem 0.3rem;
+  width: auto;
+  font-size: 3rem;
+  padding: 1rem;
+  display: inline-block;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.clock .clockFace .knob {
+  width: 1.7rem;
+  height: 1.7rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background-color: #edae98;
+  z-index: 10;
+  border-radius: 50%;
+  -webkit-filter: drop-shadow(0rem 0rem 0.2rem rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(0rem 0rem 0.2rem rgba(0, 0, 0, 0.7));
+  -webkit-box-shadow: inset rgba(255, 255, 255, 0.5) 0rem 0.15rem 0.15rem;
+          box-shadow: inset rgba(255, 255, 255, 0.5) 0rem 0.15rem 0.15rem;
+}
+
+.clock .clockFace .numbers {
+  font-family: "Roboto Mono", monospace;
+  color: #edae98;
+  font-size: 3rem;
 }
 
 .clock .clockFace .numbers .number {
   position: absolute;
+  -webkit-filter: drop-shadow(0rem 0rem 0.2rem rgba(0, 0, 0, 0.7));
+          filter: drop-shadow(0rem 0rem 0.2rem rgba(0, 0, 0, 0.7));
+  font-weight: 100;
 }
 
 .clock .clockFace .numbers .number.twelve {
-  top: 0;
+  top: 5%;
   left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .clock .clockFace .numbers .number.three {
   top: 50%;
-  right: 0%;
+  right: 5%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .clock .clockFace .numbers .number.six {
-  bottom: 0%;
+  bottom: 5%;
   right: 50%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
 }
 
 .clock .clockFace .numbers .number.nine {
   bottom: 50%;
-  left: 0%;
+  left: 5%;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
 }
 
 .clock .clockFace .hands {
@@ -525,24 +594,26 @@ a {
           transform-origin: bottom;
   position: absolute;
   bottom: 50%;
-  border-radius: 100% 100% 0% 0%;
+  border-radius: 100% 100% 00% 00%;
+  -webkit-filter: drop-shadow(0rem 0rem 0.2rem rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(0rem 0rem 0.2rem rgba(0, 0, 0, 0.5));
 }
 
 .clock .clockFace .hands .hand.second {
-  width: 0.1rem;
-  height: 20rem;
-  background-color: red;
+  width: 0.2rem;
+  height: 19rem;
+  background-color: silver;
 }
 
 .clock .clockFace .hands .hand.minute {
-  width: 0.2rem;
-  height: 20rem;
-  background-color: white;
+  width: 0.4rem;
+  height: 16rem;
+  background-color: #edae98;
 }
 
 .clock .clockFace .hands .hand.hour {
-  width: 0.5rem;
-  height: 15rem;
-  background-color: white;
+  width: 0.6rem;
+  height: 13rem;
+  background-color: #edae98;
 }
 /*# sourceMappingURL=App.css.map */
