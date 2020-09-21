@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Polaroid from "./Polaroid.js";
 import DrumKit from "../../projectAssets/home/polaroidDrumKit.png";
+import Clock from "../../projectAssets/home/polaroidClock.png";
 
 function Home() {
   useEffect(() => {
@@ -25,7 +26,7 @@ function Home() {
         />
         <Polaroid
           project="Clock"
-          imageSrc={DrumKit}
+          imageSrc={Clock}
           description="Just in case you needed another clock."
         />
       </div>
