@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <Router>
         <Switch>
-          <Route path="/my-js-thirty" exact component={Home} />
+          <Route path="/my-js-expo" exact component={Home} />
           <Route path="/DrumKit" exact component={DrumKit} />
           <Route path="/Clock" exact component={Clock} />
         </Switch>
