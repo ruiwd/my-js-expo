@@ -343,6 +343,15 @@ a {
       -ms-flex-pack: center;
           justify-content: center;
   width: 40rem;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.home .scrollDiv .polaroidSet:hover, .home .scrollDiv .polaroidSet:focus {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-filter: drop-shadow(1rem 2rem 1rem rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(1rem 2rem 1rem rgba(0, 0, 0, 0.5));
 }
 
 .home .scrollDiv .polaroidSet .polaroid {

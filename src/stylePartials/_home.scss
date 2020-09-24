@@ -29,6 +29,13 @@
       align-items: center;
       justify-content: center;
       width: 40rem;
+      transition: all ease 0.5s;
+
+      &:hover,
+      &:focus {
+        transform: scale(1.1);
+        filter: drop-shadow(1rem 2rem 1rem rgba(black, 0.5));
+      }
 
       .polaroid {
         width: 100%;

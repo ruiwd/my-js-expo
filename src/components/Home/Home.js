@@ -15,7 +15,7 @@ function Home() {
     };
 
     randomizeLabel();
-  });
+  }, []);
 
   return (
     <div className="home">
