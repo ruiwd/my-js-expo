@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/my-js-expo/static/css/main.82880db2.chunk.css",
-    "main.js": "/my-js-expo/static/js/main.024ad12d.chunk.js",
-    "main.js.map": "/my-js-expo/static/js/main.024ad12d.chunk.js.map",
+    "main.css": "/my-js-expo/static/css/main.8073b644.chunk.css",
+    "main.js": "/my-js-expo/static/js/main.6b931723.chunk.js",
+    "main.js.map": "/my-js-expo/static/js/main.6b931723.chunk.js.map",
     "runtime-main.js": "/my-js-expo/static/js/runtime-main.10b0ed85.js",
     "runtime-main.js.map": "/my-js-expo/static/js/runtime-main.10b0ed85.js.map",
-    "static/js/2.be5b8035.chunk.js": "/my-js-expo/static/js/2.be5b8035.chunk.js",
-    "static/js/2.be5b8035.chunk.js.map": "/my-js-expo/static/js/2.be5b8035.chunk.js.map",
+    "static/js/2.bc384f89.chunk.js": "/my-js-expo/static/js/2.bc384f89.chunk.js",
+    "static/js/2.bc384f89.chunk.js.map": "/my-js-expo/static/js/2.bc384f89.chunk.js.map",
     "index.html": "/my-js-expo/index.html",
-    "precache-manifest.8b6e5de47d3cdeb865b0cd282b625026.js": "/my-js-expo/precache-manifest.8b6e5de47d3cdeb865b0cd282b625026.js",
+    "precache-manifest.067b4764a1c1852f0a82a7b603082e7b.js": "/my-js-expo/precache-manifest.067b4764a1c1852f0a82a7b603082e7b.js",
     "service-worker.js": "/my-js-expo/service-worker.js",
-    "static/css/main.82880db2.chunk.css.map": "/my-js-expo/static/css/main.82880db2.chunk.css.map",
-    "static/js/2.be5b8035.chunk.js.LICENSE.txt": "/my-js-expo/static/js/2.be5b8035.chunk.js.LICENSE.txt",
-    "static/media/boom.wav": "/my-js-expo/static/media/boom.550be808.wav",
+    "static/css/main.8073b644.chunk.css.map": "/my-js-expo/static/css/main.8073b644.chunk.css.map",
+    "static/js/2.bc384f89.chunk.js.LICENSE.txt": "/my-js-expo/static/js/2.bc384f89.chunk.js.LICENSE.txt",
     "static/media/App.css": "/my-js-expo/static/media/tape.35f0ce1f.png",
+    "static/media/boom.wav": "/my-js-expo/static/media/boom.550be808.wav",
     "static/media/clap.wav": "/my-js-expo/static/media/clap.a6e86dd7.wav",
     "static/media/hihat.wav": "/my-js-expo/static/media/hihat.4ba39e07.wav",
     "static/media/kick.wav": "/my-js-expo/static/media/kick.4dd58595.wav",
     "static/media/openhat.wav": "/my-js-expo/static/media/openhat.a62db465.wav",
     "static/media/polaroidClock.png": "/my-js-expo/static/media/polaroidClock.97378a3d.png",
     "static/media/polaroidDrumKit.png": "/my-js-expo/static/media/polaroidDrumKit.68910ce1.png",
+    "static/media/polaroidGallery.png": "/my-js-expo/static/media/polaroidGallery.55c0c961.png",
     "static/media/ride.wav": "/my-js-expo/static/media/ride.b0d70ec5.wav",
     "static/media/snare.wav": "/my-js-expo/static/media/snare.80c4129b.wav",
     "static/media/tink.wav": "/my-js-expo/static/media/tink.75f727ec.wav",
@@ -27,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.10b0ed85.js",
-    "static/js/2.be5b8035.chunk.js",
-    "static/css/main.82880db2.chunk.css",
-    "static/js/main.024ad12d.chunk.js"
+    "static/js/2.bc384f89.chunk.js",
+    "static/css/main.8073b644.chunk.css",
+    "static/js/main.6b931723.chunk.js"
   ]
 }
