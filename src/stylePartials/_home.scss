@@ -14,11 +14,11 @@
 
   .scrollDiv {
     background-image: url(./projectAssets/home/bulletin.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     transform: rotateZ(90deg) translateY(-100vh);
     transform-origin: top left;
-    width: 500vw;
+    width: 150vw;
     height: 100vh;
     display: flex;
 

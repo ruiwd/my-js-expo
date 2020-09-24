@@ -314,13 +314,13 @@ a {
 
 .home .scrollDiv {
   background-image: url(./projectAssets/home/bulletin.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   -webkit-transform: rotateZ(90deg) translateY(-100vh);
           transform: rotateZ(90deg) translateY(-100vh);
   -webkit-transform-origin: top left;
           transform-origin: top left;
-  width: 500vw;
+  width: 150vw;
   height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
