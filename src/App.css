@@ -351,7 +351,7 @@ a {
 
 .home .scrollDiv .polaroidSet .postIt {
   background-image: url(./projectAssets/home/postIt.png);
-  padding: 10rem 3rem 0rem 4rem;
+  padding: 8rem 3rem 0rem 4rem;
   background-size: contain;
   background-repeat: no-repeat;
   width: 70%;
@@ -615,5 +615,165 @@ a {
   width: 0.6rem;
   height: 13rem;
   background-color: #edae98;
+}
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: dimgray;
+}
+
+.gallery::after {
+  content: "Please use landscape orientation";
+  font-family: "Rock Salt", cursive;
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+  padding-top: 40vh;
+  background-color: black;
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  pointer-events: none;
+}
+
+.gallery .panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-preferred-size: 20rem;
+      flex-basis: 20rem;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 5;
+      flex-shrink: 5;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 3rem;
+  background-size: cover;
+  -webkit-transition: all 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11);
+  transition: all 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11);
+}
+
+.gallery .panel p {
+  font-family: "Rock Salt", cursive;
+  color: white;
+  -webkit-transition: all 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11);
+  transition: all 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11);
+  -webkit-filter: drop-shadow(0.5rem 0.5rem 0.5rem black);
+          filter: drop-shadow(0.5rem 0.5rem 0.5rem black);
+  pointer-events: none;
+}
+
+.gallery .panel p:first-child {
+  -webkit-transform: translateY(-30vh);
+          transform: translateY(-30vh);
+}
+
+.gallery .panel p:nth-child(2) {
+  font-size: 4rem;
+}
+
+.gallery .panel:hover p:nth-child(2) {
+  -webkit-animation: pulse 2s infinite linear;
+          animation: pulse 2s infinite linear;
+}
+
+.gallery .panel p:last-child {
+  -webkit-transform: translateY(30vh);
+          transform: translateY(30vh);
+}
+
+.gallery .panel.open {
+  -webkit-box-flex: 5;
+      -ms-flex-positive: 5;
+          flex-grow: 5;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+}
+
+.gallery .panel.open p {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.gallery .panel.open p:nth-child(2) {
+  font-size: 8rem;
+}
+
+.gallery .panel.one {
+  background-image: url(./projectAssets/gallery/JD12.jpg);
+  background-position: 55%;
+}
+
+.gallery .panel.two {
+  background-image: url(./projectAssets/gallery/JD6.jpg);
+  background-position: 75%;
+}
+
+.gallery .panel.three {
+  background-image: url(./projectAssets/gallery/JD15.jpg);
+  background-position: 50%;
+}
+
+.gallery .panel.four {
+  background-image: url(./projectAssets/gallery/JD1.jpg);
+  background-position: 35%;
+}
+
+.gallery .panel.five {
+  background-image: url(./projectAssets/gallery/JD8.jpg);
+  background-position: 70%;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@media (orientation: portrait) {
+  .gallery::after {
+    opacity: 10;
+  }
 }
 /*# sourceMappingURL=App.css.map */

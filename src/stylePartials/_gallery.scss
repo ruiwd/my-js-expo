@@ -1,0 +1,124 @@
+@import "./variables";
+
+.gallery {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: dimgray;
+
+  &::after {
+    content: "Please use landscape orientation";
+    font-family: $cursive;
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+    padding-top: 40vh;
+    background-color: black;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: 0;
+    transition: all 0.5s;
+    pointer-events: none;
+  }
+
+  .panel {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20rem;
+    flex-grow: 1;
+    flex-shrink: 5;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 3rem;
+    background-size: cover;
+    transition: all 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11);
+
+    p {
+      font-family: $cursive;
+      color: white;
+      transition: all 0.7s cubic-bezier(0.61, -0.19, 0.7, -0.11);
+      filter: drop-shadow(0.5rem 0.5rem 0.5rem rgba(black, 1));
+      pointer-events: none;
+    }
+
+    p:first-child {
+      transform: translateY(-30vh);
+    }
+
+    p:nth-child(2) {
+      font-size: 4rem;
+    }
+
+    &:hover p:nth-child(2) {
+      animation: pulse 2s infinite linear;
+    }
+
+    p:last-child {
+      transform: translateY(30vh);
+    }
+
+    &.open {
+      flex-grow: 5;
+      flex-shrink: 1;
+    }
+
+    &.open p {
+      transform: translateY(0);
+    }
+
+    &.open p:nth-child(2) {
+      font-size: 8rem;
+    }
+
+    &.one {
+      background-image: url(./projectAssets/gallery/JD12.jpg);
+      background-position: 55%;
+    }
+
+    &.two {
+      background-image: url(./projectAssets/gallery/JD6.jpg);
+      background-position: 75%;
+    }
+
+    &.three {
+      background-image: url(./projectAssets/gallery/JD15.jpg);
+      background-position: 50%;
+    }
+
+    &.four {
+      background-image: url(./projectAssets/gallery/JD1.jpg);
+      background-position: 35%;
+    }
+
+    &.five {
+      background-image: url(./projectAssets/gallery/JD8.jpg);
+      background-position: 70%;
+    }
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (orientation: portrait) {
+  .gallery {
+    &::after {
+      opacity: 10;
+    }
+  }
+}
