@@ -363,6 +363,7 @@ a {
   padding: 8rem 3rem 0rem 4rem;
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
   width: 70%;
   height: 50rem;
   -webkit-filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.5));
@@ -375,6 +376,50 @@ a {
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+@media (hover: none) {
+  .home {
+    -webkit-transform: none;
+            transform: none;
+    width: 100vw;
+    height: auto;
+  }
+  .home .scrollDiv {
+    -webkit-transform: none;
+            transform: none;
+    width: 100vw;
+    background-image: url(./projectAssets/home/bulletinV.jpg);
+    background-repeat: repeat-y;
+    background-size: contain;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .home .scrollDiv .polaroidSet {
+    width: 45vw;
+  }
+}
+
+@media (hover: none) and (max-width: 700px) {
+  .home .scrollDiv .polaroidSet {
+    width: 80vw;
+    margin: 0 auto;
+    padding-bottom: 0;
+  }
+  .home .scrollDiv .polaroidSet .postIt {
+    height: 70vw;
+    width: 70vw;
+    padding: 10rem 6rem;
+    font-size: 3rem;
+  }
 }
 
 .drumKit {
