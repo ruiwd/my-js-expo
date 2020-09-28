@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-js-expo/static/css/main.748ac253.chunk.css",
+    "main.css": "/my-js-expo/static/css/main.6cec2e3a.chunk.css",
     "main.js": "/my-js-expo/static/js/main.6b931723.chunk.js",
     "main.js.map": "/my-js-expo/static/js/main.6b931723.chunk.js.map",
     "runtime-main.js": "/my-js-expo/static/js/runtime-main.10b0ed85.js",
@@ -8,9 +8,9 @@
     "static/js/2.bc384f89.chunk.js": "/my-js-expo/static/js/2.bc384f89.chunk.js",
     "static/js/2.bc384f89.chunk.js.map": "/my-js-expo/static/js/2.bc384f89.chunk.js.map",
     "index.html": "/my-js-expo/index.html",
-    "precache-manifest.2fd64d04a9d443f210b8c4baafd7f92a.js": "/my-js-expo/precache-manifest.2fd64d04a9d443f210b8c4baafd7f92a.js",
+    "precache-manifest.8d1bccbf3d9697f24ba07fc94ea16b16.js": "/my-js-expo/precache-manifest.8d1bccbf3d9697f24ba07fc94ea16b16.js",
     "service-worker.js": "/my-js-expo/service-worker.js",
-    "static/css/main.748ac253.chunk.css.map": "/my-js-expo/static/css/main.748ac253.chunk.css.map",
+    "static/css/main.6cec2e3a.chunk.css.map": "/my-js-expo/static/css/main.6cec2e3a.chunk.css.map",
     "static/js/2.bc384f89.chunk.js.LICENSE.txt": "/my-js-expo/static/js/2.bc384f89.chunk.js.LICENSE.txt",
     "static/media/App.css": "/my-js-expo/static/media/tape.35f0ce1f.png",
     "static/media/boom.wav": "/my-js-expo/static/media/boom.550be808.wav",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.10b0ed85.js",
     "static/js/2.bc384f89.chunk.js",
-    "static/css/main.748ac253.chunk.css",
+    "static/css/main.6cec2e3a.chunk.css",
     "static/js/main.6b931723.chunk.js"
   ]
 }
