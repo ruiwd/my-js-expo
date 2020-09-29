@@ -391,7 +391,7 @@ a {
     width: 100vw;
     background-image: url(./projectAssets/home/bulletinV.jpg);
     background-repeat: repeat-y;
-    background-size: contain;
+    background-size: cover;
     height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -402,13 +402,22 @@ a {
             flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
   }
   .home .scrollDiv .polaroidSet {
-    width: 45vw;
+    width: 40vw;
+  }
+  .home .scrollDiv .polaroidSet .postIt {
+    padding: 15rem 5rem;
+    font-size: 2.5rem;
   }
 }
 
 @media (hover: none) and (max-width: 700px) {
+  .home .scrollDiv {
+    background-size: contain;
+  }
   .home .scrollDiv .polaroidSet {
     width: 80vw;
     margin: 0 auto;
