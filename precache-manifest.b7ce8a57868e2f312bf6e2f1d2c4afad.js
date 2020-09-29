@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6b5932747a921f7e3c9649acb7966d60",
+    "revision": "3eafca792b800a654b54cd5738525787",
     "url": "/my-js-expo/index.html"
   },
   {
-    "revision": "8aeba265ff29c1f295b9",
-    "url": "/my-js-expo/static/css/main.6cec2e3a.chunk.css"
+    "revision": "f55a43a332062e27fa9b",
+    "url": "/my-js-expo/static/css/main.eecc3aa2.chunk.css"
   },
   {
     "revision": "dde861444b648284fd77",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-js-expo/static/js/2.bc384f89.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8aeba265ff29c1f295b9",
+    "revision": "f55a43a332062e27fa9b",
     "url": "/my-js-expo/static/js/main.6b931723.chunk.js"
   },
   {
