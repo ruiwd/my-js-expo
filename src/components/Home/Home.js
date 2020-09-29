@@ -33,7 +33,12 @@ function Home() {
         <Polaroid
           project="Gallery"
           imageSrc={Gallery}
-          description="An interactive gallery of a few photos I took on my travels"
+          description="An interactive gallery of a few photos I took on my travels."
+        />
+        <Polaroid
+          project="PhotoEditor"
+          imageSrc={Gallery}
+          description="A simple photo editor."
         />
       </div>
     </div>

@@ -4,6 +4,7 @@ import Home from "./components/Home/Home";
 import DrumKit from "./components/DrumKit";
 import Clock from "./components/Clock";
 import Gallery from "./components/Gallery";
+import PhotoEditor from "./components/PhotoEditor";
 import "./App.css";
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
           <Route path="/DrumKit" exact component={DrumKit} />
           <Route path="/Clock" exact component={Clock} />
           <Route path="/Gallery" exact component={Gallery} />
+          <Route path="/PhotoEditor" exact component={PhotoEditor} />
         </Switch>
       </Router>
     );
