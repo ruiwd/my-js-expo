@@ -3,6 +3,7 @@ import Polaroid from "./Polaroid.js";
 import DrumKit from "../../projectAssets/home/polaroidDrumKit.png";
 import Clock from "../../projectAssets/home/polaroidClock.png";
 import Gallery from "../../projectAssets/home/polaroidGallery.png";
+import PhotoEditor from "../../projectAssets/home/polaroidPhotoEditor.png";
 
 function Home() {
   useEffect(() => {
@@ -37,7 +38,7 @@ function Home() {
         />
         <Polaroid
           project="PhotoEditor"
-          imageSrc={Gallery}
+          imageSrc={PhotoEditor}
           description="A simple photo editor. Sorry you can't save the product :("
         />
       </div>
