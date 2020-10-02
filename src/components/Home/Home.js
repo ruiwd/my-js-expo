@@ -38,7 +38,7 @@ function Home() {
         <Polaroid
           project="PhotoEditor"
           imageSrc={Gallery}
-          description="A simple photo editor."
+          description="A simple photo editor. Sorry you can't save the product :("
         />
       </div>
     </div>
