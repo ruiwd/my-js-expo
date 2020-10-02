@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my-js-expo/static/css/main.eecc3aa2.chunk.css",
-    "main.js": "/my-js-expo/static/js/main.6b931723.chunk.js",
-    "main.js.map": "/my-js-expo/static/js/main.6b931723.chunk.js.map",
+    "main.css": "/my-js-expo/static/css/main.10bf128a.chunk.css",
+    "main.js": "/my-js-expo/static/js/main.4de7eec9.chunk.js",
+    "main.js.map": "/my-js-expo/static/js/main.4de7eec9.chunk.js.map",
     "runtime-main.js": "/my-js-expo/static/js/runtime-main.10b0ed85.js",
     "runtime-main.js.map": "/my-js-expo/static/js/runtime-main.10b0ed85.js.map",
-    "static/js/2.bc384f89.chunk.js": "/my-js-expo/static/js/2.bc384f89.chunk.js",
-    "static/js/2.bc384f89.chunk.js.map": "/my-js-expo/static/js/2.bc384f89.chunk.js.map",
+    "static/js/2.84a8a221.chunk.js": "/my-js-expo/static/js/2.84a8a221.chunk.js",
+    "static/js/2.84a8a221.chunk.js.map": "/my-js-expo/static/js/2.84a8a221.chunk.js.map",
     "index.html": "/my-js-expo/index.html",
-    "precache-manifest.b7ce8a57868e2f312bf6e2f1d2c4afad.js": "/my-js-expo/precache-manifest.b7ce8a57868e2f312bf6e2f1d2c4afad.js",
+    "precache-manifest.f5e285cfd231a8737c672ea93c0c1071.js": "/my-js-expo/precache-manifest.f5e285cfd231a8737c672ea93c0c1071.js",
     "service-worker.js": "/my-js-expo/service-worker.js",
-    "static/css/main.eecc3aa2.chunk.css.map": "/my-js-expo/static/css/main.eecc3aa2.chunk.css.map",
-    "static/js/2.bc384f89.chunk.js.LICENSE.txt": "/my-js-expo/static/js/2.bc384f89.chunk.js.LICENSE.txt",
+    "static/css/main.10bf128a.chunk.css.map": "/my-js-expo/static/css/main.10bf128a.chunk.css.map",
+    "static/js/2.84a8a221.chunk.js.LICENSE.txt": "/my-js-expo/static/js/2.84a8a221.chunk.js.LICENSE.txt",
     "static/media/App.css": "/my-js-expo/static/media/tape.35f0ce1f.png",
     "static/media/boom.wav": "/my-js-expo/static/media/boom.550be808.wav",
     "static/media/clap.wav": "/my-js-expo/static/media/clap.a6e86dd7.wav",
@@ -21,6 +21,7 @@
     "static/media/polaroidClock.png": "/my-js-expo/static/media/polaroidClock.97378a3d.png",
     "static/media/polaroidDrumKit.png": "/my-js-expo/static/media/polaroidDrumKit.68910ce1.png",
     "static/media/polaroidGallery.png": "/my-js-expo/static/media/polaroidGallery.55c0c961.png",
+    "static/media/polaroidPhotoEditor.png": "/my-js-expo/static/media/polaroidPhotoEditor.28acc4d4.png",
     "static/media/ride.wav": "/my-js-expo/static/media/ride.b0d70ec5.wav",
     "static/media/snare.wav": "/my-js-expo/static/media/snare.80c4129b.wav",
     "static/media/tink.wav": "/my-js-expo/static/media/tink.75f727ec.wav",
@@ -28,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.10b0ed85.js",
-    "static/js/2.bc384f89.chunk.js",
-    "static/css/main.eecc3aa2.chunk.css",
-    "static/js/main.6b931723.chunk.js"
+    "static/js/2.84a8a221.chunk.js",
+    "static/css/main.10bf128a.chunk.css",
+    "static/js/main.4de7eec9.chunk.js"
   ]
 }

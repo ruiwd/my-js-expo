@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3eafca792b800a654b54cd5738525787",
+    "revision": "be833c55732a4c33fd83400491c52d12",
     "url": "/my-js-expo/index.html"
   },
   {
-    "revision": "f55a43a332062e27fa9b",
-    "url": "/my-js-expo/static/css/main.eecc3aa2.chunk.css"
+    "revision": "27b45b44b2790090485c",
+    "url": "/my-js-expo/static/css/main.10bf128a.chunk.css"
   },
   {
-    "revision": "dde861444b648284fd77",
-    "url": "/my-js-expo/static/js/2.bc384f89.chunk.js"
+    "revision": "b9f03990b2f767199b35",
+    "url": "/my-js-expo/static/js/2.84a8a221.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/my-js-expo/static/js/2.bc384f89.chunk.js.LICENSE.txt"
+    "url": "/my-js-expo/static/js/2.84a8a221.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f55a43a332062e27fa9b",
-    "url": "/my-js-expo/static/js/main.6b931723.chunk.js"
+    "revision": "27b45b44b2790090485c",
+    "url": "/my-js-expo/static/js/main.4de7eec9.chunk.js"
   },
   {
     "revision": "34b8a35f3ec804d19757",
@@ -82,6 +82,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "55c0c961cfe70d8ca125cf96fd29d4ef",
     "url": "/my-js-expo/static/media/polaroidGallery.55c0c961.png"
+  },
+  {
+    "revision": "28acc4d45de7e964ee0085ffa65bbe28",
+    "url": "/my-js-expo/static/media/polaroidPhotoEditor.28acc4d4.png"
   },
   {
     "revision": "d4dcf8e7dbe120e81e54b82088f061f5",
