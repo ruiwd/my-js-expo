@@ -63,7 +63,7 @@
   display: none;
 }
 
-@media (hover: none) {
+@media (pointer: course) {
   .home {
     transform: none;
     width: 100vw;
@@ -93,7 +93,7 @@
   }
 }
 
-@media (hover: none) and (max-width: 700px) {
+@media (pointer: course) and (max-width: 700px) {
   .home {
     .scrollDiv {
       background-size: contain;
