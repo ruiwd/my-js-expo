@@ -18,8 +18,14 @@ function PhotoEditor() {
         slider.addEventListener("mousemove", handleSlide);
       });
       slider.addEventListener("mouseup", () => {
-        slider.addEventListener("change", handleSlide);
         slider.removeEventListener("mousemove", handleSlide);
+      });
+      slider.addEventListener('touchstart', () => {
+        slider.addEventListener('change', handleSlide);
+        slider.addEventListener('touchmove', handleSlide);
+      });
+      slider.addEventListener('touchend', () => {
+        slider.removeEventListener('touchmove', handleSlide);
       });
     });
   }, []);
