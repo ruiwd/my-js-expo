@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/my-js-expo/static/css/main.10bf128a.chunk.css",
-    "main.js": "/my-js-expo/static/js/main.4de7eec9.chunk.js",
-    "main.js.map": "/my-js-expo/static/js/main.4de7eec9.chunk.js.map",
+    "main.js": "/my-js-expo/static/js/main.5348da12.chunk.js",
+    "main.js.map": "/my-js-expo/static/js/main.5348da12.chunk.js.map",
     "runtime-main.js": "/my-js-expo/static/js/runtime-main.10b0ed85.js",
     "runtime-main.js.map": "/my-js-expo/static/js/runtime-main.10b0ed85.js.map",
     "static/js/2.84a8a221.chunk.js": "/my-js-expo/static/js/2.84a8a221.chunk.js",
     "static/js/2.84a8a221.chunk.js.map": "/my-js-expo/static/js/2.84a8a221.chunk.js.map",
     "index.html": "/my-js-expo/index.html",
-    "precache-manifest.f5e285cfd231a8737c672ea93c0c1071.js": "/my-js-expo/precache-manifest.f5e285cfd231a8737c672ea93c0c1071.js",
+    "precache-manifest.09eb9aeeb59c8b6ad209c08c1618696e.js": "/my-js-expo/precache-manifest.09eb9aeeb59c8b6ad209c08c1618696e.js",
     "service-worker.js": "/my-js-expo/service-worker.js",
     "static/css/main.10bf128a.chunk.css.map": "/my-js-expo/static/css/main.10bf128a.chunk.css.map",
     "static/js/2.84a8a221.chunk.js.LICENSE.txt": "/my-js-expo/static/js/2.84a8a221.chunk.js.LICENSE.txt",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.10b0ed85.js",
     "static/js/2.84a8a221.chunk.js",
     "static/css/main.10bf128a.chunk.css",
-    "static/js/main.4de7eec9.chunk.js"
+    "static/js/main.5348da12.chunk.js"
   ]
 }
