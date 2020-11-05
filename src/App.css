@@ -378,7 +378,7 @@ a {
   display: none;
 }
 
-@media (hover: none) {
+@media (pointer: course) {
   .home {
     -webkit-transform: none;
             transform: none;
@@ -414,7 +414,7 @@ a {
   }
 }
 
-@media (hover: none) and (max-width: 700px) {
+@media (pointer: course) and (max-width: 700px) {
   .home .scrollDiv {
     background-size: contain;
   }
@@ -948,5 +948,189 @@ a {
   max-height: 100vh;
   -webkit-filter: brightness(var(--brightness)) contrast(var(--contrast)) hue-rotate(var(--hue)) saturate(var(--saturation)) sepia(var(--sepia)) blur(var(--blur));
           filter: brightness(var(--brightness)) contrast(var(--contrast)) hue-rotate(var(--hue)) saturate(var(--saturation)) sepia(var(--sepia)) blur(var(--blur));
+}
+
+div.threeDCard {
+  font-family: "Montserrat", sans-serif;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: ivory;
+}
+
+div.threeDCard .container {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.threeDCard .container .card {
+  min-height: 80vh;
+  width: 45vw;
+  max-width: 650px;
+  -webkit-box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 0 50px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 0 50px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 0rem 5rem 5rem 5rem;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  background-color: white;
+  -webkit-transform: perspective(100px);
+          transform: perspective(100px);
+}
+
+div.threeDCard .container .card .shoe {
+  min-height: 35vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.threeDCard .container .card .shoe img {
+  width: 50%;
+  z-index: 20;
+  -webkit-transition: all 0.75s ease;
+  transition: all 0.75s ease;
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+  display: none;
+}
+
+div.threeDCard .container .card .shoe img.show {
+  display: block;
+}
+
+div.threeDCard .container .card .circle {
+  -webkit-transition: all 0.75s ease;
+  transition: all 0.75s ease;
+  width: 25rem;
+  height: 25rem;
+  background-color: azure;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 10;
+}
+
+div.threeDCard .container .card .info h1 {
+  font-size: 3rem;
+  -webkit-transition: all 0.75s ease;
+  transition: all 0.75s ease;
+}
+
+div.threeDCard .container .card .info h3 {
+  -webkit-transition: all 0.75s ease;
+  transition: all 0.75s ease;
+  font-size: 1.5rem;
+  padding: 2rem 0;
+  color: gray;
+  font-weight: lighter;
+}
+
+div.threeDCard .container .card .info .selection {
+  -webkit-transition: all 0.75s ease;
+  transition: all 0.75s ease;
+}
+
+div.threeDCard .container .card .info .selection h4 {
+  color: gray;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+div.threeDCard .container .card .info .selection .buttonContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div.threeDCard .container .card .info .selection .buttonContainer button {
+  font-size: 1.3rem;
+  padding: 0.5rem 2rem;
+  background: none;
+  border: none;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);
+  margin: 5px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  color: gray;
+  font-family: inherit;
+  margin: 5px;
+  z-index: 10;
+  outline: none;
+}
+
+div.threeDCard .container .card .info .selection .buttonContainer button.active {
+  background-color: gray;
+  color: white;
+  pointer-events: none;
+}
+
+div.threeDCard .container .card .info .sizes h4 {
+  margin-top: 10px;
+}
+
+div.threeDCard .container .card .info .purchase {
+  margin-top: 40px;
+}
+
+div.threeDCard .container .card .info .purchase button {
+  -webkit-transition: all 0.75s ease;
+  transition: all 0.75s ease;
+  width: 100%;
+  padding: 10px 0;
+  background-color: azure;
+  border: none;
+  color: gray;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: inherit;
+  border-radius: 30px;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+@media (max-width: 800px) {
+  div.threeDCard .container {
+    width: 70%;
+  }
+  div.threeDCard .container .card {
+    width: 65vw;
+  }
+}
+
+@media (max-width: 500px) {
+  div.threeDCard .container {
+    width: 90%;
+  }
+  div.threeDCard .container .card {
+    width: 85vw;
+  }
 }
 /*# sourceMappingURL=App.css.map */

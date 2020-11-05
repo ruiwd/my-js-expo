@@ -5,6 +5,7 @@ import DrumKit from "./components/DrumKit";
 import Clock from "./components/Clock";
 import Gallery from "./components/Gallery";
 import PhotoEditor from "./components/PhotoEditor";
+import ThreeDCard from "./components/ThreeDCard";
 import "./App.css";
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
           <Route path="/Clock" exact component={Clock} />
           <Route path="/Gallery" exact component={Gallery} />
           <Route path="/PhotoEditor" exact component={PhotoEditor} />
+          <Route path="/ThreeDCard" exact component={ThreeDCard} />
         </Switch>
       </Router>
     );

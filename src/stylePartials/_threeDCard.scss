@@ -1,0 +1,160 @@
+@import "./variables";
+
+div.threeDCard {
+  font-family: $sans;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: ivory;
+
+  .container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .card {
+      min-height: 80vh;
+      width: 45vw;
+      max-width: 650px;
+      box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0 0 50px rgba(0, 0, 0, 0.1);
+      border-radius: 30px;
+      padding: 0rem 5rem 5rem 5rem;
+      transform-style: preserve-3d;
+      background-color: white;
+      transform: perspective(100px);
+
+      .shoe {
+        min-height: 35vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          width: 50%;
+          z-index: 20;
+          transition: all 0.75s ease;
+          transform-origin: top left;
+          display: none;
+
+          &.show {
+            display: block;
+          }
+        }
+      }
+
+      .circle {
+        transition: all 0.75s ease;
+        width: 25rem;
+        height: 25rem;
+        background-color: azure;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 10;
+      }
+
+      .info {
+        h1 {
+          font-size: 3rem;
+          transition: all 0.75s ease;
+        }
+
+        h3 {
+          transition: all 0.75s ease;
+          font-size: 1.5rem;
+          padding: 2rem 0;
+          color: gray;
+          font-weight: lighter;
+        }
+
+        .selection {
+          transition: all 0.75s ease;
+
+          h4 {
+            color: gray;
+            margin-bottom: 10px;
+            font-size: 1.5rem;
+          }
+
+          .buttonContainer {
+            display: flex;
+            flex-wrap: wrap;
+
+            button {
+              font-size: 1.3rem;
+              padding: 0.5rem 2rem;
+              background: none;
+              border: none;
+              box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);
+              margin: 5px;
+              border-radius: 30px;
+              cursor: pointer;
+              font-weight: bold;
+              color: gray;
+              font-family: inherit;
+              margin: 5px;
+              z-index: 10;
+              outline: none;
+
+              &.active {
+                background-color: gray;
+                color: white;
+                pointer-events: none;
+              }
+            }
+          }
+        }
+
+        .sizes {
+          h4 {
+            margin-top: 10px;
+          }
+        }
+
+        .purchase {
+          margin-top: 40px;
+
+          button {
+            transition: all 0.75s ease;
+            width: 100%;
+            padding: 10px 0;
+            background-color: azure;
+            border: none;
+            color: gray;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            font-family: inherit;
+            border-radius: 30px;
+            box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  div.threeDCard {
+    .container {
+      width: 70%;
+      .card {
+        width: 65vw;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  div.threeDCard {
+    .container {
+      width: 90%;
+      .card {
+        width: 85vw;
+      }
+    }
+  }
+}

@@ -4,6 +4,7 @@ import DrumKit from "../../projectAssets/home/polaroidDrumKit.png";
 import Clock from "../../projectAssets/home/polaroidClock.png";
 import Gallery from "../../projectAssets/home/polaroidGallery.png";
 import PhotoEditor from "../../projectAssets/home/polaroidPhotoEditor.png";
+import Card from '../../projectAssets/home/polaroidCard.png';
 
 function Home() {
   useEffect(() => {
@@ -40,6 +41,12 @@ function Home() {
           project="PhotoEditor"
           imageSrc={PhotoEditor}
           description="A simple photo editor. Sorry you can't save the product :("
+        />
+
+        <Polaroid
+          project="threeDCard"
+          imageSrc={Card}
+          description="Trying my hand at 3D product cards. Marc Fisher should sponsor me."
         />
       </div>
     </div>
